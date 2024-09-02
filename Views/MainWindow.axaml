@@ -1,0 +1,165 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="MyAvaloniaApp.Views.MainWindow"
+        Title="Ürün Takibi" Width="500" Height="750">
+    <ScrollViewer>
+        <Grid Margin="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+        
+            <!-- Seri No Başlığı ve TextBox -->
+       
+            <TextBlock Text="Seri No" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="0" Grid.Row="0"/>
+            <TextBox Name="SerialNumberTextBox" Margin="0,0,10,10" Width="150" Grid.Column="1" Grid.Row="0"/>
+          
+            <!-- CheckBox Kontrolleri -->
+            <TextBlock Text="Kart Adı" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="0" Grid.Row="1"/>
+            <CheckBox Name="KartAdiCheckBox1" Content="KART-1" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="1" Grid.Row="1" FontSize="15"/>
+            <CheckBox Name="KartAdiCheckBox2" Content="KART-2" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="2" Grid.Row="1" FontSize="15"/>
+
+            <TextBlock Text="Bağlantı" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="0" Grid.Row="2"/>
+            <CheckBox Name="BaglantiCheckBox" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="1" Grid.Row="2" FontSize="20"/>
+
+            <TextBlock Text="SD Kart" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="0" Grid.Row="3"/>
+            <CheckBox Name="SD_KartCheckBox" Padding="10" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="1" Grid.Row="3" FontSize="20"/>
+
+            <TextBlock Text="Harici Flash" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="0" Grid.Row="4"/>
+            <CheckBox Name="Harici_FlashCheckBox" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="1" Grid.Row="4" FontSize="20"/>
+
+            <TextBlock Text="Konfigürasyon" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="0" Grid.Row="5"/>
+            <CheckBox Name="KonfigürasyonCheckBox" Padding="10" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="1" Grid.Row="5" FontSize="20"/>
+
+            <TextBlock Text="Saat Ayarı" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="0" Grid.Row="6"/>
+            <CheckBox Name="Saat_AyarıCheckBox" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="1" Grid.Row="6" FontSize="20"/>
+
+            <TextBlock Text="Buton Kontrolü" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="0" Grid.Row="7"/>
+            <CheckBox Name="Buton_KontrolüCheckBox" Padding="10" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="1" Grid.Row="7" FontSize="20"/>
+
+            <TextBlock Text="RS485(1)" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="0" Grid.Row="8"/>
+            <CheckBox Name="RS485_1CheckBox" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="1" Grid.Row="8" FontSize="20"/>
+
+            <TextBlock Text="RS485(2)" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="0" Grid.Row="9"/>
+            <CheckBox Name="RS485_2CheckBox" Padding="10" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="1" Grid.Row="9" FontSize="20"/>
+
+            <TextBlock Text="Nextion Ekran" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="0" Grid.Row="10"/>
+            <CheckBox Name="Nextion_EkranCheckBox" Margin="0,0,10,10" VerticalAlignment="Center" Grid.Column="1" Grid.Row="10" FontSize="20"/>
+
+            <TextBlock Text="Ledler" Margin="0,0,10,15" VerticalAlignment="Center" Grid.Column="0" Grid.Row="11"/>
+            <CheckBox Name="LedlerCheckBox" Margin="0,0,10,15" VerticalAlignment="Center" Grid.Column="1" Grid.Row="11" FontSize="20"/>
+            
+
+            <TextBlock Text="Kırmızı Feedback" Margin="0,0,10,5" VerticalAlignment="Center" Grid.Column="0" Grid.Row="12"/>
+            <CheckBox Name="KirmiziFeedbackG1" Content="G1" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="12" FontSize="17"/>
+            <CheckBox Name="KirmiziFeedbackG2" Content="G2" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="13" FontSize="17"/>
+            <CheckBox Name="KirmiziFeedbackG3" Content="G3" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="14" FontSize="17"/>
+            <CheckBox Name="KirmiziFeedbackG4" Content="G4" Padding="10" Margin="0,0,10,15" VerticalAlignment="Center" Grid.Column="1" Grid.Row="15" FontSize="17"/>
+
+            <TextBlock Text="Sarı Feedback" Margin="0,0,10,5" VerticalAlignment="Center" Grid.Column="0" Grid.Row="16"/>
+            <CheckBox Name="SariFeedbackG1"  Content="G1" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="16" FontSize="17"/>
+            <CheckBox Name="SariFeedbackG2"  Content="G2" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="17" FontSize="17"/>
+            <CheckBox Name="SariFeedbackG3"  Content="G3" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="18" FontSize="17"/>
+            <CheckBox Name="SariFeedbackG4"  Content="G4" Padding="10" Margin="0,0,10,15" VerticalAlignment="Center" Grid.Column="1" Grid.Row="19" FontSize="17"/>
+
+            <TextBlock Text="Yeşil Feedback" Margin="0,0,10,5" VerticalAlignment="Center" Grid.Column="0" Grid.Row="20"/>
+            <CheckBox Name="YesilFeedbackG1"  Content="G1" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="20" FontSize="17"/>
+            <CheckBox Name="YesilFeedbackG2"  Content="G2" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="21" FontSize="17"/>
+            <CheckBox Name="YesilFeedbackG3"  Content="G3" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="22" FontSize="17"/>
+            <CheckBox Name="YesilFeedbackG4"  Content="G4" Padding="10" Margin="0,0,10,15" VerticalAlignment="Center" Grid.Column="1" Grid.Row="23" FontSize="17"/>
+
+            <TextBlock Text="Kırmızı Lamba Patlağı" Margin="0,0,10,5" VerticalAlignment="Center" Grid.Column="0" Grid.Row="24"/>
+            <CheckBox Name="KirmiziLambaPatlagiG1"  Content="G1" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="24" FontSize="17"/>
+            <CheckBox Name="KirmiziLambaPatlagiG2"  Content="G2" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="25" FontSize="17"/>
+            <CheckBox Name="KirmiziLambaPatlagiG3"  Content="G3" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="26" FontSize="17"/>
+            <CheckBox Name="KirmiziLambaPatlagiG4"  Content="G4" Padding="10" Margin="0,0,10,15" VerticalAlignment="Center" Grid.Column="1" Grid.Row="27" FontSize="17"/>
+
+            <TextBlock Text="Kırmızı Son Lamba Patlağı" Margin="0,0,10,5" VerticalAlignment="Center" Grid.Column="0" Grid.Row="28"/>
+            <CheckBox Name="KirmiziSonLambaPatlagiG1"  Content="G1" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="28" FontSize="17"/>
+            <CheckBox Name="KirmiziSonLambaPatlagiG2"  Content="G2" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="29" FontSize="17"/>
+            <CheckBox Name="KirmiziSonLambaPatlagiG3"  Content="G3" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="30" FontSize="17"/>
+            <CheckBox Name="KirmiziSonLambaPatlagiG4"  Content="G4" Padding="10" Margin="0,0,10,15" VerticalAlignment="Center" Grid.Column="1" Grid.Row="31" FontSize="17"/>
+
+            <TextBlock Text="Sarı Lamba Patlağı" Margin="0,0,10,5" VerticalAlignment="Center" Grid.Column="0" Grid.Row="32"/>
+            <CheckBox Name="SariLambaPatlagiG1"  Content="G1" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="32" FontSize="17"/>
+            <CheckBox Name="SariLambaPatlagiG2"  Content="G2" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="33" FontSize="17"/>
+            <CheckBox Name="SariLambaPatlagiG3"  Content="G3" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="34" FontSize="17"/>
+            <CheckBox Name="SariLambaPatlagiG4"  Content="G4" Padding="10" Margin="0,0,10,15" VerticalAlignment="Center" Grid.Column="1" Grid.Row="35" FontSize="17"/>
+
+            <TextBlock Text="Sarı Son Lamba Patlağı" Margin="0,0,10,5" VerticalAlignment="Center" Grid.Column="0" Grid.Row="36"/>
+            <CheckBox Name="SariSonLambaPatlagiG1"  Content="G1" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="36" FontSize="17"/>
+            <CheckBox Name="SariSonLambaPatlagiG2"  Content="G2" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="37" FontSize="17"/>
+            <CheckBox Name="SariSonLambaPatlagiG3"  Content="G3" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="38" FontSize="17"/>
+            <CheckBox Name="SariSonLambaPatlagiG4"  Content="G4" Padding="10" Margin="0,0,10,15" VerticalAlignment="Center" Grid.Column="1" Grid.Row="39" FontSize="17"/>
+
+            <TextBlock Text="Yeşil Lamba Patlağı" Margin="0,0,10,5" VerticalAlignment="Center" Grid.Column="0" Grid.Row="40"/>
+            <CheckBox Name="YesilLambaPatlagiG1"  Content="G1" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="40" FontSize="17"/>
+            <CheckBox Name="YesilLambaPatlagiG2"  Content="G2" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="41" FontSize="17"/>
+            <CheckBox Name="YesilLambaPatlagiG3"  Content="G3" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="42" FontSize="17"/>
+            <CheckBox Name="YesilLambaPatlagiG4"  Content="G4" Padding="10" Margin="0,0,10,15" VerticalAlignment="Center" Grid.Column="1" Grid.Row="43" FontSize="17"/>
+
+            <TextBlock Text="Yeşil Son Lamba Patlağı" Margin="0,0,10,5" VerticalAlignment="Center" Grid.Column="0" Grid.Row="44"/>
+            <CheckBox Name="YesilSonLambaPatlagiG1"  Content="G1" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="44" FontSize="17"/>
+            <CheckBox Name="YesilSonLambaPatlagiG2"  Content="G2" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="45" FontSize="17"/>
+            <CheckBox Name="YesilSonLambaPatlagiG3"  Content="G3" Padding="10" Margin="0,0,10,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="46" FontSize="17"/>
+            <CheckBox Name="YesilSonLambaPatlagiG4"  Content="G4" Padding="10" Margin="0,0,10,15" VerticalAlignment="Center" Grid.Column="1" Grid.Row="47" FontSize="17"/>
+
+            <!-- Gönder Butonu -->
+            <Button Background="Orange" Foreground="White" Content="Gönder" Width="80" Margin="20,0,0,0"
+                    HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                    Grid.Column="1" Grid.Row="49" VerticalAlignment="Center" Click="OnSubmitButtonClick"/>
+        </Grid>
+    </ScrollViewer>
+</Window>

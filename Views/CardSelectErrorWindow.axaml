@@ -1,0 +1,15 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="MyAvaloniaApp.Views.CardSelectErrorWindow"
+        Title="Uyarı"
+        Width="300"
+        Height="100">
+    <Grid Margin="20" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="avares://MyAvaloniaApp/Assets/crossmark.jpg" Width="50" Height="50" Grid.Column="0"/>
+        <TextBlock Text="Kart Adı Seçin" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Margin="10,0,0,0"/>
+    </Grid>
+</Window>

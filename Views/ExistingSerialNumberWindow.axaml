@@ -1,0 +1,20 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="MyAvaloniaApp.Views.ExistingSerialNumberWindow"
+        Title="Uyarı" Width="500" Height="300">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock Text="Bu seri numarası zaten mevcut düzenlemek ister misiniz?" Margin="10" TextAlignment="Center"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="Vazgeç" Width="80" Margin="10" 
+                    HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                    Background="Orange" Foreground="White"
+                    Click="OnNoButtonClick"/>
+            <Button Content="Devam Et" Width="80" Margin="10" 
+                    HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                    Background="Red" Foreground="White"
+                    Click="OnYesButtonClick"/>
+        </StackPanel>
+    </StackPanel>
+    
+
+</Window>
